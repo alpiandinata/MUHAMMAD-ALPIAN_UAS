@@ -8,6 +8,7 @@
 </head>
 <body>
 
+  <!-- ===== FORM RESERVASI ===== -->
   <section class="reservation-section">
     <div class="form-container">
       <h2>Formulir Reservasi</h2>
@@ -35,7 +36,7 @@
           <div>
             <label>Jam Reservasi <span>*</span></label>
             <select required>
-              <option>Pilih Jam</option>
+              <option value="">Pilih Jam</option>
               <option>06:00</option>
               <option>08:00</option>
               <option>10:00</option>
@@ -49,7 +50,7 @@
           <div>
             <label>Jenis Program <span>*</span></label>
             <select required>
-              <option>Pilih Program</option>
+              <option value="">Pilih Program</option>
               <option>Fitness</option>
               <option>Yoga</option>
               <option>Personal Trainer</option>
@@ -58,7 +59,7 @@
           <div>
             <label>Pilih Cabang <span>*</span></label>
             <select required>
-              <option>Pilih Cabang</option>
+              <option value="">Pilih Cabang</option>
               <option>Jakarta</option>
               <option>Bandung</option>
             </select>
@@ -66,12 +67,14 @@
         </div>
 
         <label>Catatan Khusus</label>
-        <textarea placeholder="Kebutuhan khusus, riwayat kesehatan, atau pertanyaan lainnya..."></textarea>
+        <textarea
+          placeholder="Kebutuhan khusus, riwayat kesehatan, atau pertanyaan lainnya..."
+        ></textarea>
 
         <div class="checkbox">
           <input type="checkbox" required />
           <p>
-            Saya menyetujui syarat dan ketentuan yang berlaku serta konfirmasi
+            Saya menyetujui syarat dan ketentuan yang berlaku serta mengonfirmasi
             bahwa informasi yang saya berikan adalah benar.
           </p>
         </div>
@@ -81,6 +84,7 @@
     </div>
   </section>
 
+  <!-- ===== BANTUAN ===== -->
   <section class="help-section">
     <h2>Butuh Bantuan?</h2>
 
@@ -107,78 +111,78 @@
       </div>
     </div>
   </section>
-<section class="faq-section">
-  <h2>Pertanyaan Umum (FAQ)</h2>
 
-  <div class="faq-item active">
-    <div class="faq-question">
-      <span>Apakah pemula boleh ikut kelas?</span>
-      <span class="icon">▲</span>
-    </div>
-    <div class="faq-answer">
-      <p>
-        Tentu saja! SmartFit Hub menyediakan kelas khusus untuk pemula dengan
-        intensitas yang disesuaikan. Semua program kami memiliki variasi untuk
-        semua level, dari pemula hingga advanced. Trainer kami akan memandu Anda
-        dengan aman dan efektif.
-      </p>
-    </div>
-  </div>
+  <!-- ===== FAQ ===== -->
+  <section class="faq-section">
+    <h2>Pertanyaan Umum (FAQ)</h2>
 
-  <div class="faq-item">
-    <div class="faq-question">
-      <span>Apakah tersedia personal trainer?</span>
-      <span class="icon">▼</span>
+    <div class="faq-item active">
+      <div class="faq-question">
+        <span>Apakah pemula boleh ikut kelas?</span>
+        <span class="icon">▲</span>
+      </div>
+      <div class="faq-answer">
+        <p>
+          Tentu saja! SmartFit Hub menyediakan kelas khusus untuk pemula dengan
+          intensitas yang disesuaikan. Trainer kami akan memandu Anda dengan aman
+          dan efektif.
+        </p>
+      </div>
     </div>
-    <div class="faq-answer">
-      <p>
-        Ya, kami menyediakan personal trainer profesional sesuai kebutuhan dan
-        tujuan latihan Anda.
-      </p>
-    </div>
-  </div>
 
-  <div class="faq-item">
-    <div class="faq-question">
-      <span>Bagaimana sistem pembayarannya?</span>
-      <span class="icon">▼</span>
+    <div class="faq-item">
+      <div class="faq-question">
+        <span>Apakah tersedia personal trainer?</span>
+        <span class="icon">▼</span>
+      </div>
+      <div class="faq-answer">
+        <p>
+          Ya, kami menyediakan personal trainer profesional sesuai kebutuhan dan
+          tujuan latihan Anda.
+        </p>
+      </div>
     </div>
-    <div class="faq-answer">
-      <p>
-        Pembayaran dapat dilakukan secara bulanan atau tahunan melalui transfer
-        bank, kartu kredit, dan e-wallet.
-      </p>
-    </div>
-  </div>
 
-  <div class="faq-item">
-    <div class="faq-question">
-      <span>Apakah ada batasan usia untuk bergabung?</span>
-      <span class="icon">▼</span>
+    <div class="faq-item">
+      <div class="faq-question">
+        <span>Bagaimana sistem pembayarannya?</span>
+        <span class="icon">▼</span>
+      </div>
+      <div class="faq-answer">
+        <p>
+          Pembayaran dapat dilakukan secara bulanan atau tahunan melalui transfer
+          bank, kartu kredit, dan e-wallet.
+        </p>
+      </div>
     </div>
-    <div class="faq-answer">
-      <p>
-        Usia minimum untuk bergabung adalah 16 tahun dengan persetujuan orang tua
-        atau wali.
-      </p>
-    </div>
-  </div>
 
-  <div class="faq-item">
-    <div class="faq-question">
-      <span>Bisakah saya freeze membership?</span>
-      <span class="icon">▼</span>
+    <div class="faq-item">
+      <div class="faq-question">
+        <span>Apakah ada batasan usia untuk bergabung?</span>
+        <span class="icon">▼</span>
+      </div>
+      <div class="faq-answer">
+        <p>
+          Usia minimum untuk bergabung adalah 16 tahun dengan persetujuan orang
+          tua atau wali.
+        </p>
+      </div>
     </div>
-    <div class="faq-answer">
-      <p>
-        Ya, membership dapat di-freeze sesuai dengan syarat dan ketentuan yang
-        berlaku.
-      </p>
+
+    <div class="faq-item">
+      <div class="faq-question">
+        <span>Bisakah saya freeze membership?</span>
+        <span class="icon">▼</span>
+      </div>
+      <div class="faq-answer">
+        <p>
+          Ya, membership dapat di-freeze sesuai dengan syarat dan ketentuan yang
+          berlaku.
+        </p>
+      </div>
     </div>
-  </div>
-</section>
-<script src="reservasi.js"></script>
+  </section>
 
-
+  <script src="reservasi.js"></script>
 </body>
 </html>
