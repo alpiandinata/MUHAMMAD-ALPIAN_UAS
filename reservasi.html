@@ -8,74 +8,80 @@
 </head>
 <body>
 
-  <div class="form-container">
-    <h2>Formulir Reservasi</h2>
+  <section class="reservation-section">
+    <div class="form-container">
+      <h2>Formulir Reservasi</h2>
 
-    <form>
-      <label>Nama Lengkap <span>*</span></label>
-      <input type="text" placeholder="Masukkan nama lengkap" required />
+      <form>
+        <label>Nama Lengkap <span>*</span></label>
+        <input type="text" placeholder="Masukkan nama lengkap" required />
 
-      <div class="row">
-        <div>
-          <label>Email <span>*</span></label>
-          <input type="email" placeholder="nama@contoh.com" required />
+        <div class="row">
+          <div>
+            <label>Email <span>*</span></label>
+            <input type="email" placeholder="nama@contoh.com" required />
+          </div>
+          <div>
+            <label>Nomor HP <span>*</span></label>
+            <input type="tel" placeholder="08xxxxxxxxxx" required />
+          </div>
         </div>
-        <div>
-          <label>Nomor HP <span>*</span></label>
-          <input type="tel" placeholder="08xxxxxxxxxx" required />
-        </div>
-      </div>
 
-      <div class="row">
-        <div>
-          <label>Tanggal Reservasi <span>*</span></label>
-          <input type="date" required />
+        <div class="row">
+          <div>
+            <label>Tanggal Reservasi <span>*</span></label>
+            <input type="date" required />
+          </div>
+          <div>
+            <label>Jam Reservasi <span>*</span></label>
+            <select required>
+              <option>Pilih Jam</option>
+              <option>06:00</option>
+              <option>08:00</option>
+              <option>10:00</option>
+              <option>16:00</option>
+              <option>18:00</option>
+            </select>
+          </div>
         </div>
-        <div>
-          <label>Jam Reservasi <span>*</span></label>
-          <select required>
-            <option>Pilih Jam</option>
-            <option>06:00</option>
-            <option>08:00</option>
-            <option>10:00</option>
-            <option>16:00</option>
-            <option>18:00</option>
-          </select>
+
+        <div class="row">
+          <div>
+            <label>Jenis Program <span>*</span></label>
+            <select required>
+              <option>Pilih Program</option>
+              <option>Fitness</option>
+              <option>Yoga</option>
+              <option>Personal Trainer</option>
+            </select>
+          </div>
+          <div>
+            <label>Pilih Cabang <span>*</span></label>
+            <select required>
+              <option>Pilih Cabang</option>
+              <option>Jakarta</option>
+              <option>Bandung</option>
+            </select>
+          </div>
         </div>
-      </div>
 
-      <div class="row">
-        <div>
-          <label>Jenis Program <span>*</span></label>
-          <select required>
-            <option>Pilih Program</option>
-            <option>Fitness</option>
-            <option>Yoga</option>
-            <option>Personal Trainer</option>
-          </select>
+        <label>Catatan Khusus</label>
+        <textarea placeholder="Kebutuhan khusus, riwayat kesehatan, atau pertanyaan lainnya..."></textarea>
+
+        <div class="checkbox">
+          <input type="checkbox" required />
+          <p>
+            Saya menyetujui syarat dan ketentuan yang berlaku serta konfirmasi
+            bahwa informasi yang saya berikan adalah benar.
+          </p>
         </div>
-        <div>
-          <label>Pilih Cabang <span>*</span></label>
-          <select required>
-            <option>Pilih Cabang</option>
-            <option>Jakarta</option>
-            <option>Bandung</option>
-          </select>
-        </div>
-      </div>
 
-      <label>Catatan Khusus</label>
-      <textarea placeholder="Kebutuhan khusus, riwayat kesehatan, atau pertanyaan lainnya..."></textarea>
+        <button type="submit">KIRIM RESERVASI</button>
+      </form>
+    </div>
+  </section>
 
-      <div class="checkbox">
-        <input type="checkbox" required />
-        <p>Saya menyetujui syarat dan ketentuan yang berlaku serta konfirmasi bahwa informasi yang saya berikan adalah benar.</p>
-      </div>
-
-      <button type="submit">KIRIM RESERVASI</button>
-    </form>
-  </div>
-<section class="help-section">
+  <section class="help-section">
     <h2>Butuh Bantuan?</h2>
 
     <div class="help-cards">
@@ -176,7 +182,3 @@
 
 </body>
 </html>
-
-</body>
-</html>
-
